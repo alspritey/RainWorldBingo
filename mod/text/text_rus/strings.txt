@@ -1,130 +1,130 @@
 // ========================================
 // ВИДЫ СУЩЕСТВ
 // ========================================
-MothGrub|
-Barnacle|
-SandGrub|
-SkyWhale|
-RotLoach|
-RippleSpider|
-IndigoLizard|
-GrappleSnake|
-PeachLizard|
-BigSandGrub|
-AltSkyWhale|
-DrillCrab|
-SmallMoth|
-Millipede|
-FireSprite|
-Tardigrade|
-ScavengerTemplar|
-Frog|
-Rat|
-Angler|
-Loach|
-BigMoth|
-BoxWorm|
-Rattler|
-ScavengerDisciple|
-BlizzardLizard|
-BasiliskLizard|
-ScavengerKing|
-StowawayBug|
-JungleLeech|
-EelLizard|
-AquaCenti|
-Inspector|
-Yeek|
-FireBug|
-SlugNPC|
-MirosVulture|
-MotherSpider|
-SpitLizard|
-ZoopLizard|
-TerrorLongLegs|
-ScavengerElite|
-BigJelly|
-Spider|
-BigEel|
-EggBug|
-GreenLizard|
-WhiteLizard|
-BlackLizard|
-GarbageWorm|
-TempleGuard|
-VultureGrub|
-KingVulture|
-SmallCentipede|
-YellowLizard|
-LanternMouse|
-RedCentipede|
-BrotherLongLegs|
-SmallNeedleWorm|
-Fly|
-RedLizard|
-PoleMimic|
-MirosBird|
-Centipede|
-Centiwing|
-Scavenger|
-BigSpider|
-PinkLizard|
-BlueLizard|
-Salamander|
-CyanLizard|
-Leech|
-Snail|
-Hazer|
-SeaLeech|
-TubeWorm|
-Overseer|
-DaddyLongLegs|
-TentaclePlant|
-SpitterSpider|
-BigNeedleWorm|
-Slugcat|
-Vulture|
-CicadaA|
-CicadaB|
-JetFish|
-DropBug|
-Deer|
+MothGrub|Личинка моли
+Barnacle|Усоног
+SandGrub|Песчаная личинка
+SkyWhale|Небесный кит
+RotLoach|Гнилой вьюн
+RippleSpider|Рябной паук
+IndigoLizard|Индиго ящер
+GrappleSnake|Крюко-змей
+PeachLizard|Персиковый ящер
+BigSandGrub|Песчаный червь
+AltSkyWhale|Песчаный кит
+DrillCrab|Бурокраб
+SmallMoth|Малая моль
+Millipede|Миллипендра
+FireSprite|Огнедух
+Tardigrade|Тихоходка
+ScavengerTemplar|Паладин мусорщиков
+Frog|Лягушка
+Rat|Крыса
+Angler|Удильщик
+Loach|Вьюн
+BigMoth|Взрослая моль
+BoxWorm|Коробчатый червь
+Rattler|Костотряс
+ScavengerDisciple|Адепт мусорщиков
+BlizzardLizard|Буреящер
+BasiliskLizard|Василиск
+ScavengerKing|Вождь мусорщиков
+StowawayBug|Спрятник
+JungleLeech|Тропическая пиявка
+EelLizard|Ящер-угорь
+AquaCenti|Водоножка
+Inspector|Инспектор
+Yeek|Ика
+FireBug|Огненный жук
+SlugNPC|Слизнекотёнок
+MirosVulture|Стриж-стервятник
+MotherSpider|Паучья мать
+SpitLizard|Карамельный ящер
+ZoopLizard|Клубничный ящер
+TerrorLongLegs|Мать-долгоножка
+ScavengerElite|Элитный мусорщик
+BigJelly|Гигантская медуза
+Spider|Паукопендра
+BigEel|Левиафан
+EggBug|Яичный жук
+GreenLizard|Зелёный ящер
+WhiteLizard|Белый ящер
+BlackLizard|Чёрный ящер
+GarbageWorm|Мусорный червь
+TempleGuard|Страж
+VultureGrub|Личинка стервятника
+KingVulture|Король-стервятник
+SmallCentipede|Мелкая сколопендра
+YellowLizard|Жёлтый ящер
+LanternMouse|Фонарная мышь
+RedCentipede|Красная сколопендра
+BrotherLongLegs|Брат-долгоног
+SmallNeedleWorm|Маленькая лапшемуха
+Fly|Летучая мышь
+RedLizard|Красный ящер
+PoleMimic|Шестовик
+MirosBird|Стриж
+Centipede|Сколопендра
+Centiwing|Сколокрылка
+Scavenger|Мусорщик
+BigSpider|Большой паук
+PinkLizard|Розовый ящер
+BlueLizard|Синий ящер
+Salamander|Саламандра
+CyanLizard|Циановый ящер
+Leech|Красная пиявка
+Snail|Улитка
+Hazer|Осьминог
+SeaLeech|Морская пиявка
+TubeWorm|Крюко-червь
+Overseer|Наблюдатель
+DaddyLongLegs|Отец-долгоног
+TentaclePlant|Хищная водоросль
+SpitterSpider|Паук-ядоплюй
+BigNeedleWorm|Взрослая лапшемуха
+Slugcat|Слизнекот
+Vulture|Стервятник
+CicadaA|Белая Кальмарокада
+CicadaB|Синяя Кальмарокада
+JetFish|Крабокатица
+DropBug|Спусковёртка
+Deer|Дождевой олень
 
 // ========================================
 // ВИДЫ ОБЪЕКТОВ
 // ========================================
-Pomegranate|
-GraffitiBomb|
-FireSpriteLarva|
-Boomerang|
-SingularityBomb|
-JokeRifle|
-GooieDuck|
-LillyPuck|
-MoonCloak|
-DandelionPeach|
-GlowWeed|
-EnergyCell|
-FireEgg|
-Seed|
-PuffBall|
-WaterNut|
-Mushroom|
-ScavengerBomb|
-FirecrackerPlant|
-Spear|
-VultureMask|
-DangleFruit|
-KarmaFlower|
-BubbleGrass|
-SeedCob|
-Lantern|
-FlyLure|
-SporePlant|
-NSHSwarmer|
-SLOracleSwarmer|
-SSOracleSwarmer|
-OverseerCarcass|
+Pomegranate|Гранат
+GraffitiBomb|Бомба-граффити
+FireSpriteLarva|Личинка Огнедуха
+Boomerang|Бумеранг
+SingularityBomb|Бомба Сингулярности
+JokeRifle|Шуткоствол
+GooieDuck|Гудутка
+LillyPuck|Лилия
+MoonCloak|Плащ Луны
+DandelionPeach|Одуванчиковый персик
+GlowWeed|Светящаяся трава
+EnergyCell|Ячейка разрежения
+FireEgg|Огненное яйцо
+Seed|Семя
+PuffBall|Спорогриб
+WaterNut|Пузырьковый плод
+Mushroom|Гриб
+ScavengerBomb|Бомба Мусорщиков
+FirecrackerPlant|Петарда
+Spear|Копьё
+VultureMask|Маска Стервятника
+DangleFruit|Синий фрукт
+KarmaFlower|Светоцвет
+BubbleGrass|Пузырник
+SeedCob|Попкорник
+Lantern|Фонарь
+FlyLure|Мышиная мята
+SporePlant|Улей
+NSHSwarmer|Нейрон Охотника
+SLOracleSwarmer|Нейрон Луны
+SSOracleSwarmer|Нейрон Пяти Галек
+OverseerCarcass|Глаз Наблюдателя
 FlareBomb|Световая бомба
 DataPearl|Жемчуг
 JellyFish|Медуза
