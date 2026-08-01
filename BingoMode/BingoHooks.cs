@@ -249,7 +249,6 @@ namespace BingoMode
 
             // One passage per game
             On.Menu.SleepAndDeathScreen.AddExpeditionPassageButton += SleepAndDeathScreen_AddExpeditionPassageButton;
-            IL.Menu.FastTravelScreen.Update += FastTravelScreen_Update;
             On.Menu.FastTravelScreen.Singal += FastTravelScreen_Singal;
 
             // Stop void win from happening
@@ -297,6 +296,30 @@ namespace BingoMode
             IL.Menu.CharacterSelectPage.UpdateChallengePreview += CharacterSelectPage_UpdateChallengePreviewIL;
             // Add plurals for certain items
             On.Expedition.ChallengeTools.ItemName += ChallengeTools_ItemName;
+            // Pressing back (escape) in passage menu takes you back to game
+            IL.Menu.FastTravelScreen.Update += FastTravelScreen_Update;
+        }
+
+        private static void FastTravelScreen_Update(ILContext il)
+        {
+            ILCursor c = new(il);
+
+            if (c.TryGotoNext(MoveType.After,
+                x => x.MatchLdsfld(typeof(ProcessManager.ProcessID).GetField(nameof(ProcessManager.ProcessID.MainMenu)))))
+            {
+                c.Emit(OpCodes.Ldarg_0);
+                c.EmitDelegate<Func<ProcessManager.ProcessID, Menu.FastTravelScreen, ProcessManager.ProcessID>>((orig, FTScreen) =>
+                {
+                    if (BingoData.BingoMode)
+                    {
+                        FTScreen.manager.menuSetup.startGameCondition = ProcessManager.MenuSetup.StoryGameInitCondition.Load;
+                        ExpeditionData.earnedPassages++; // muy important
+                        return ProcessManager.ProcessID.Game;
+                    }
+                    return orig;
+                });
+            }
+            else Plugin.logger.LogError("FastTravelScreen_Update FAILURE " + il);
         }
 
         private static string ChallengeTools_ItemName(On.Expedition.ChallengeTools.orig_ItemName orig, BaseAOT type)
@@ -660,32 +683,6 @@ namespace BingoMode
                 return;
             }
             orig.Invoke(self, eu);
-        }
-
-        private static void FastTravelScreen_Update(ILContext il)
-        {
-            //ILCursor c = new(il);
-            //
-            //ILLabel label = null;
-            //if (c.TryGotoNext(MoveType.Before,
-            //    x => x.MatchBr(out label),
-            //    x => x.MatchLdarg(0),
-            //    x => x.MatchLdfld<MainLoopProcess>("manager"),
-            //    x => x.MatchLdsfld<ProcessManager.ProcessID>("MainMenu"),
-            //    x => x.MatchCallOrCallvirt<ProcessManager>("RequestMainProcessSwitch")
-            //    ))
-            //{
-            //    if (label == null) return;
-            //    c.Index += 1;
-            //    c.MoveAfterLabels();
-            //    c.EmitDelegate<Func<bool>>(() =>
-            //    {
-            //        if (BingoData.BingoMode) return true;
-            //        return false;
-            //    });
-            //    c.Emit(OpCodes.Brtrue, label);
-            //}
-            //else Plugin.logger.LogError("FastTravelScreen_Update FAILURE " + il);
         }
 
         private static void SleepAndDeathScreen_AddExpeditionPassageButton(On.Menu.SleepAndDeathScreen.orig_AddExpeditionPassageButton orig, SleepAndDeathScreen self)
