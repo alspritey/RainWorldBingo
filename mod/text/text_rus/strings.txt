@@ -19,8 +19,8 @@ Fill icon sprites|Заполнить иконки спрайтов
 Discord Rich Presence|Статус Discord Rich Presence
 Show Bingo as your Discord activity (restart to take effect)|Показывать Бинго как ваш Discord активность (требуется перезапуск для применения)
 Bingo Gameplay Config|Конфигурация Игрового Процесса Бинго
-Ripple eggs required for dial warp:|Яиц Ряби для циферблатного варпа:
-Start with the Dial Warp perk fully charged:|Циферблатный варп заряжен с начала:
+Ripple eggs required for dial warp:|Яиц Ряби для цифербл. варпа:
+Start with the Dial Warp perk fully charged:|Цифербл. варп заряжен с начала:
 Which team's color to use in singleplayer|Какой цвет команды использовать в одиночной игре
 Black|Чёрный
 Blue|Синий
