@@ -24,17 +24,17 @@ Start with the Dial Warp perk fully charged:|Цифербл. варп заряж
 Which team's color to use in singleplayer|Какой цвет команды использовать в одиночной игре
 Black|Чёрный
 Blue|Синий
-Cyan|Циановый
+Cyan|Бирюзовый
 Yellow|Жёлтый
 Green|Зелёный
 Hurricane|Ураган
 Orange|Оранжевый
 Pink|Розовый
 Red|Красный
-Indigo|Индиго
+Indigo|Сапфировый
 Peach|Персиковый
 Blizzard|Метель
-Board view|Вид доски
+Board view|Просмотр доски
 
 Dial Warp|Циферблатный Варп
 Dial Warp (Ripple Egg Warp) is unlocked from the start. <LINE>Watcher Exclusive|Циферблатный Варп (Варп с яйцами Ряби) доступен с самого начала.<LINE>Эксклюзивно для Созерцателя
